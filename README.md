@@ -1,4 +1,4 @@
-![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/2b390a72-70ae-4e6c-96c2-5d2e02733c75)# BookStore Website
+# BookStore Website
 ## Introduction to the Bookstore Web Application 
 The bookstore web application project focuses on creating an efficient and user-friendly platform for purchasing books online. Targeting book enthusiasts, the application aims to provide a seamless browsing and buying experience, offering a diverse range of books across various genres and categories. 
 

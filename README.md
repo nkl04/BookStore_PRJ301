@@ -103,51 +103,67 @@ Description: Customers add items they want to purchase to their shopping cart an
 
 Figure 6. State Diagram for main page 
 
- 
+
 Description: when accessing the web, the user is in home page. If user redirect to profile page or order history page, the system check if the user is not login then redirect to login page else can access user page. According to accessing admin page, the user have to login first, if user is admin then this user can use functionality of admin page, else not. 
 
 ## Database Design
 ### Database diagram
 ![image](https://github.com/DungNVHE182057/PRJ301_Assignment_HE182057/assets/131468660/bbeb0721-606e-4652-a30c-6927565a7170)
 
+## ACCOUNT
+### Admin account
+  - gmail: long1@gmail.com
+  - password: 123
+
+    
 ## WEBSITE INTERFACE
 ![image](https://github.com/DungNVHE182057/PRJ301_Assignment_HE182057/assets/131468660/7c04f3e4-ee85-41ae-9323-2088165026bb)
+
 
 Figure 7.Home page
 
 ![image](https://github.com/DungNVHE182057/PRJ301_Assignment_HE182057/assets/131468660/19a5db2a-480f-4705-803e-7fc8e1826ffe)
 
+
 Figure 8. Login page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/eabd1367-4721-4663-b34a-3363ae42201d)
+
 
 Figure 9. Sign up page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/dcb54790-9616-4dab-a6ce-b406e2216e81)
 
+
 Figure 10: Collections page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/21f8a58d-5ec6-4853-9026-4d13ed11136d)
+
 
 Figure 11: Book detail page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/7f94a907-b10f-463d-a3bd-40c794c66ab3)
 
+
 Figure 12: Wishlist page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/1fb158d8-16de-47a3-9ba3-5461aad6a257)
+
 
 Figure 13: Cart page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/5990c907-f5a6-43e1-9d7c-767439c287f9)
 
+
 Figure 14: Profile page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/c807c991-9ddb-4922-951c-84b232bfb7db)
 
+
 Figure 15: User orders page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/373e2d0a-abce-4f4e-b69c-1601296214c5)
+
 
 Figure 16: User orders page
 

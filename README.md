@@ -63,6 +63,7 @@ The purpose of the bookstore project is to create an online platform that provid
 
 * Usecase Diagram 
 
+![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/a855c0e1-0c73-40ba-9819-3e89a36b1470)
 
 
 Figure 2.1. General Use Case Diagram 

@@ -1,0 +1,113 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 thg 2, 2024, 22:40:37
+    Author     : Win
+*/
+
+.shoppingcart {
+  padding: 0 100px;
+      margin-top: 20px;
+}
+.cart-content {
+  display: flex;
+  
+  margin-bottom: 20px;
+}
+.cart-content-left {
+  margin-right: 30px;
+  min-width: 800px;
+}
+.cart-description {
+  margin: 0 30px 0 50px;
+  width: 200px;
+}
+.cart-item {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+.cart-item img {
+  width: 15%;
+  margin-right: 30px;
+}
+.cart-item h4 {
+  margin: 20px 0 15px;
+  font-size: 20px;
+}
+.cart-item h5 {
+  font-size: 17px;
+  margin: 5px 0;
+  color: #99aec1;
+}
+.cart-item h2 {
+  color: #f65d4e;
+}
+.cart-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-right: 50px;
+  width: 200px;
+}
+.action-button {
+  margin-bottom: 10px;
+}
+.action-button button {
+  background: none;
+  border: none;
+  color: #f65d4e;
+  font-size: 16px;
+  cursor: pointer;
+}
+.cart-price {
+  width: 200px;
+  text-align: center;
+}
+.cart-content-right {
+  width: 35%;
+  margin-right: 30px;
+}
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.total-price {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.checkout-btn {
+  background-color: #f65d4e;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 19px;
+  cursor: pointer;
+}
+.checkout-btn:hover {
+  opacity: 0.8;
+}
+.qty-input {
+  margin-top: 20px;
+}
+
+.qty-input label {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.qty-input .form-input {
+  display: flex;
+}
+
+.qty-input input {
+  height: 20px;
+  width: 45px
+}

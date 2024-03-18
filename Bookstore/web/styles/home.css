@@ -1,0 +1,247 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 thg 2, 2024, 22:17:53
+    Author     : Win
+*/
+
+.banner-image img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 530px;
+}
+
+.banner-image-content {
+  background-color: #eee6db;
+  width: 90%;
+  height: 80%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+}
+.banner {
+  position: relative;
+}
+.content-box-left {
+  padding-left: 150px;
+  width: 60%;
+}
+.content-box-left h3 {
+  font-size: 16px;
+  color: #99aec1;
+  margin-top: 0;
+}
+.content-box-left h1 {
+  font-size: 70px;
+  text-wrap: wrap;
+  margin: 0;
+}
+.content-box-left h2 {
+  font-size: 30px;
+  color: #f65d4e;
+}
+.content-box-right img {
+  width: 80%;
+}
+.btn-group {
+  margin-top: 40px;
+  height: 50px;
+  display: flex;
+}
+.button {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.button:hover {
+  color: white;
+  background-color: black;
+}
+.trending {
+  padding: 10px 80px 40px;
+}
+.trending-header h3 {
+  font-size: 40px;
+  position: relative;
+}
+.header-line::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 0.5px;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.book-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-item {
+  padding: 0 15px;
+  width: 20%;
+  height: 600px;
+}
+.book-item h4 {
+  margin: 20px 0 15px;
+  font-size: 20px;
+}
+.book-item h5 {
+  font-size: 17px;
+  margin: 5px 0;
+  color: #99aec1;
+}
+.book-item h2 {
+  margin: 0;
+  color: #f65d4e;
+}
+.book-item img {
+  width: 100%;
+  height: 400px;
+  border-radius: 25px;
+}
+.book-item:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+.bestselling {
+  padding: 10px 80px 40px;
+  background-color: #eee6db;
+}
+.bestselling-header h3 {
+  font-size: 40px;
+  position: relative;
+}
+
+.popular {
+  padding: 10px 80px 40px;
+}
+.popular-header h3 {
+  font-size: 40px;
+  position: relative;
+}
+.popular-content {
+  display: flex;
+}
+.popular-left {
+  display: grid;
+  width: 70%;
+  grid-template-columns: auto auto auto auto;
+  padding-right: 20px;
+}
+
+.popular-item {
+  padding: 0 15px;
+  height: 450px;
+  margin-bottom: 20px;
+  max-width: 200px;
+}
+.popular-item h4 {
+  margin: 10px 0 15px;
+  font-size: 20px;
+}
+.popular-item h5 {
+  font-size: 17px;
+  margin: 5px 0;
+  color: #99aec1;
+}
+.popular-item h2 {
+  margin: 0;
+  color: #f65d4e;
+}
+.popular-item img {
+  width: 100%;
+  height: 70%;
+  border-radius: 25px;
+}
+.popular-right {
+  width: 30%;
+  position: relative;
+}
+.popular-right img {
+  width: 100%;
+}
+.popular-right-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 25%;
+  text-align: center;
+  color: white;
+}
+.popular-right-content h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.popular-right-content p {
+  font-size: 18px;
+}
+.button-base {
+  background-color: #f65d4e;
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.button-base:hover {
+  background-color: black;
+}
+.clientsays {
+  padding: 10px 80px 40px;
+  background-color: #f5f7fe;
+}
+.clientsays-header {
+  font-size: 40px;
+  position: relative;
+}
+.client-contents {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.client-content {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0 50px;
+}
+.client-image {
+  display: flex;
+  margin: 40px 0;
+  justify-content: center;
+}
+.client-image img {
+  border-radius: 50%;
+  width: 20%;
+}
+.client-quote {
+  text-wrap: wrap;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.6;
+  width: 300px;
+}
+.client-name {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  margin: 50px 0;
+}
+.fa-star {
+  color: #fa8c17;
+}

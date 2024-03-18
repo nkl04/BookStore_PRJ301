@@ -1,0 +1,96 @@
+label {
+  font-size: 20px;
+  display: block;
+  margin: 10px 0;
+}
+
+.avatar-area {
+  width: 90%;
+  grid-column: 1 / span 2;
+}
+
+.avatar-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.avatar-content img {
+  border-radius: 50%;
+}
+
+.choose-btn {
+  background-color: #fe9206;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.choose-btn input {
+  display: none;
+}
+
+.choose-btn label {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  cursor: pointer;
+  padding: 8px 20px;
+}
+.choose-btn:hover {
+  opacity: 0.8;
+}
+
+.remove-btn {
+  background-color: #ffffff;
+  padding: 8px 20px;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.remove-btn:hover {
+  background-color: red;
+  color: #ffffff;
+}
+.profile-panel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 50px 200px;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 8px 1px #888888;
+}
+
+.form {
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 50px;
+  row-gap: 30px;
+  margin: 20px 0;
+}
+
+.form-input input {
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+}
+
+.btn-area {
+  margin: 10px 0;
+  display: flex;
+  width: 90%;
+}
+
+.save-btn {
+  background-color: #fe9206;
+  color: #ffffff;
+  padding: 8px 20px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+
+.save-btn:hover {
+  opacity: 0.8;
+}

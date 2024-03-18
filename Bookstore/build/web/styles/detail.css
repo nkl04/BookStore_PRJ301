@@ -1,0 +1,241 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 thg 2, 2024, 22:43:02
+    Author     : Win
+*/
+.fa-star {
+  color: #fa8c17;
+}
+.mainproduct {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+.book-image {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+.book-image img {
+  width: 90%;
+}
+.book-info {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.sku-text {
+  margin: 20px 0;
+  color: rgb(0, 132, 88);
+  font-size: 20px;
+}
+.sku-text-out{
+  margin: 20px 0;
+  color: rgb(185, 32, 15);
+  font-size: 20px;
+}
+.qty-input {
+  color: #000;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.qty-input .product-qty,
+.qty-input .qty-count {
+  background: transparent;
+  color: inherit;
+  font-weight: bold;
+  font-size: inherit;
+  border: none;
+  display: inline-block;
+  min-width: 0;
+  height: 2.5rem;
+  line-height: 1;
+}
+.qty-input .product-qty:focus,
+.qty-input .qty-count:focus {
+  outline: none;
+}
+.qty-input .product-qty {
+  width: 50px;
+  min-width: 0;
+  display: inline-block;
+  text-align: center;
+  appearance: textfield;
+}
+.qty-input .product-qty::-webkit-outer-spin-button,
+.qty-input .product-qty::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+.qty-input .qty-count {
+  padding: 0;
+  cursor: pointer;
+  width: 2.5rem;
+  font-size: 1.25em;
+  text-indent: -100px;
+  overflow: hidden;
+  position: relative;
+}
+.qty-input .qty-count:before,
+.qty-input .qty-count:after {
+  content: "";
+  height: 2px;
+  width: 10px;
+  position: absolute;
+  display: block;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.qty-input .product-qty {
+  border: 1px solid #e2e2e2;
+}
+.qty-input .qty-count--minus {
+  border: 1px solid #e2e2e2;
+}
+.qty-input .qty-count--add {
+  border: 1px solid #e2e2e2;
+}
+.qty-input .qty-count--add:after {
+  transform: rotate(90deg);
+}
+.qty-input .qty-count:disabled {
+  color: #ccc;
+  background: #f2f2f2;
+  cursor: not-allowed;
+  border-color: transparent;
+}
+.qty-input .qty-count:disabled:before,
+.qty-input .qty-count:disabled:after {
+  background: #ccc;
+}
+
+.btn-shop {
+  background-color: #f65d4e;
+  margin: 10px 0;
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn-shop:hover {
+  opacity: 0.8;
+}
+.btn-group {
+  margin: 20px 0;
+}
+.btn-group a
+{
+    text-decoration: none;
+}
+
+
+.container {
+  margin: 50px 140px;
+}
+.tab-box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
+  border-bottom: 1px solid #4c4c4c;
+  padding-bottom: 10px;
+  position: relative;
+}
+.tab-box .tab-btn {
+  font-size: 18px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: #4c4c4c;
+}
+
+.tab-box .tab-btn.active {
+  color: black;
+}
+.content-box .content {
+  display: none;
+  animation: moving 0.5s ease;
+}
+
+.content-box .content ul {
+  list-style-type: circle;
+}
+@keyframes moving {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.content-box .content.active {
+  display: block;
+}
+.line {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 140px;
+  height: 4px;
+  background-color: black;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.book-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-item {
+  padding: 0 15px;
+  width: 20%;
+  height: 600px;
+}
+.book-item h4 {
+  margin: 20px 0 15px;
+  font-size: 20px;
+}
+.book-item h5 {
+  font-size: 17px;
+  margin: 5px 0;
+  color: #99aec1;
+}
+.book-item h2 {
+  margin: 0;
+  color: #f65d4e;
+}
+.book-item img {
+  width: 100%;
+  height: 350px;
+  border-radius: 25px;
+}
+.recentlyview {
+  margin: 10px 80px;
+}
+.recentlyview-header {
+  text-align: center;
+}
+.content{
+    width: 80%;
+    font-size: 18px;
+}

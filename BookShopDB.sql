@@ -120,7 +120,7 @@ create table Wishlist(
 -----------------Insert data-------------------
 insert into Account(firstName, lastname, email, password, address, isAdmin) values
 ('long', 'nguyen', 'long1@gmail.com', '123', 'Hung Yen', 1),
-(N'Đức', N'Nguyễn', 'long2@gmail.com', '123', 'Hung Yen', 0);
+(N'Long', N'Nguyễn', 'long2@gmail.com', '123', 'Hung Yen', 0);
 
 ----------------------------Insert author------------------------
 INSERT INTO Author

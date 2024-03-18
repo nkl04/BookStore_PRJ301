@@ -1,4 +1,4 @@
-# BookStore Website
+![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/2b390a72-70ae-4e6c-96c2-5d2e02733c75)# BookStore Website
 ## Introduction to the Bookstore Web Application 
 The bookstore web application project focuses on creating an efficient and user-friendly platform for purchasing books online. Targeting book enthusiasts, the application aims to provide a seamless browsing and buying experience, offering a diverse range of books across various genres and categories. 
 
@@ -64,93 +64,38 @@ The purpose of the bookstore project is to create an online platform that provid
 * Usecase Diagram 
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/a855c0e1-0c73-40ba-9819-3e89a36b1470)
-
-
 Figure 2.1. General Use Case Diagram 
-
- 
 
 Description: Users can register, log in, update their information, search for products, make purchases, and view their purchase history. Meanwhile, administrators will have all the functionalities of a regular user, along with additional features for managing the website and accessing sales data. 
 
  
-
-Ảnh có chứa văn bản, biểu đồ, vòng tròn, hàng
-
-Mô tả được tạo tự động 
-
+![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/2b657479-c863-48aa-a094-d62c422fb1ce)
 Figure 2.2. Specific Use Case Diagram 
-
- 
 
 Description: In the chart above, we gain an overview of how the website operates through the user and administrator interaction steps. 
 
- 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-* Sequence Diagram 
-
-Không thể tải hình ảnh
- 
-
+![image](https://github.com/DungNVHE182057/PRJ301_Assignment_HE182057/assets/131468660/6184d5d2-c248-480f-aa93-26ec0d374021)
 Figure 2.3. Login Sequence Diagram 
-
- 
 
 Description: When customers request to log in, they will be redirected to the login page. The system will validate whether the username and password are valid input so that to check in database. If account has in database, it will display a login successful message; otherwise, it will display a login failed message and return to the login interface. 
 
- 
 
-Ảnh có chứa văn bản, biểu đồ, ảnh chụp màn hình, hàng
-
-Mô tả được tạo tự động 
-
- 
-
+![image](https://github.com/DungNVHE182057/PRJ301_Assignment_HE182057/assets/131468660/3575c592-f6c8-48c3-8eca-2e9f36403f1a)
 Figure 2.4. Signup Sequence Diagram 
-
- 
 
 Description: When users request to register as members, they will be directed to the registration page. The system will validate the entered information. If the information is valid, it will display a registration successful message. If the entered information is invalid, it will display a registration failed message. 
 
  
-
-Ảnh có chứa văn bản, biểu đồ, ảnh chụp màn hình, hàng
-
-Mô tả được tạo tự động 
-
+![image](https://github.com/DungNVHE182057/PRJ301_Assignment_HE182057/assets/131468660/2c2bce56-7f2e-4d9d-957a-d3b0ad246a14)
 Figure 2.5. Buy Product Sequence Diagram 
 
- 
 
 Description: Customers add items they want to purchase to their shopping cart and it save in database as well. When user want to to buy products in cart, they require checkout. The system processes the payment and notifies the user of a successful transaction. 
 
  
-
- 
-
-* State Diagram 
-
-Ảnh có chứa biểu đồ, hàng, văn bản, thiết kế
-
-Mô tả được tạo tự động 
-
+![image](https://github.com/DungNVHE182057/PRJ301_Assignment_HE182057/assets/131468660/1970db8c-26f4-4f16-b888-4001a5c96157)
 Figure 2.6. State Diagram for main page 
 
  
-
 Description: when accessing the web, the user is in home page. If user redirect to profile page or order history page, the system check if the user is not login then redirect to login page else can access user page. According to accessing admin page, the user have to login first, if user is admin then this user can use functionality of admin page, else not. 

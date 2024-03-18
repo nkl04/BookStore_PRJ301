@@ -129,15 +129,29 @@ Figure 10: Collections page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/21f8a58d-5ec6-4853-9026-4d13ed11136d)
 
+Figure 11: Book detail page
+
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/7f94a907-b10f-463d-a3bd-40c794c66ab3)
+
+Figure 12: Wishlist page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/1fb158d8-16de-47a3-9ba3-5461aad6a257)
 
+Figure 13: Cart page
+
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/5990c907-f5a6-43e1-9d7c-767439c287f9)
+
+Figure 14: Profile page
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/c807c991-9ddb-4922-951c-84b232bfb7db)
 
+Figure 15: User orders page
+
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/373e2d0a-abce-4f4e-b69c-1601296214c5)
+
+Figure 16: User orders page
+
+## ADMIN INTERFACE
 
 ![image](https://github.com/nkl04/BookStore_PRJ301/assets/131468660/5296cc4a-0929-4503-9725-61cd40d8702f)
 

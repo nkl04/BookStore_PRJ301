@@ -1,6 +1,7 @@
 # BookStore Website
 ## Introduction to the Bookstore Web Application 
 The bookstore web application project focuses on creating an efficient and user-friendly platform for purchasing books online. Targeting book enthusiasts, the application aims to provide a seamless browsing and buying experience, offering a diverse range of books across various genres and categories. 
+
 ## Current Assessment  
   ### Strengths: 
   - Accessibility: The online bookstore provides easy access to a wide range of books for customers, regardless of their location.  
@@ -8,10 +9,12 @@ The bookstore web application project focuses on creating an efficient and user-
   - Diverse Selection: The application offers a diverse selection of books across various genres and categories, catering to different preferences. 
   - Product Enhancement and Customer Acquisition: Feedback from online customers aids in product refinement, attracting new customers and retaining existing ones. 
   - Flexibility: The online platform allows for flexible browsing and purchasing options, accommodating varying customer preferences. 
-  - Time-Saving for Buyers: Online shopping eliminates the need for physical visits to stores, saving customers valuable time. 
+  - Time-Saving for Buyers: Online shopping eliminates the need for physical visits to stores, saving customers valuable time.
+    
   ### Weaknesses:
   - Security Concerns: Internet security risks pose threats to the integrity of the web application and customer data.  
-  - Customer Trust Issues: Trust in product quality may be undermined by discrepancies between online descriptions and actual products. 
+  - Customer Trust Issues: Trust in product quality may be undermined by discrepancies between online descriptions and actual products.
+    
 ## Purpose of website 
 The purpose of the bookstore project is to create an online platform that provides a convenient and accessible way for customers to browse, purchase, and interact with a wide range of books. The project aims to leverage the power of technology to overcome geographical barriers and offer book enthusiasts a diverse selection of reading materials from various genres and authors. 
 
@@ -22,7 +25,8 @@ The purpose of the bookstore project is to create an online platform that provid
   - Shopping cart management. 
   - User’s orders browsing  
   - Checkout  
-  - Admin functionalities for managing inventory and orders. 
+  - Admin functionalities for managing inventory and orders.
+    
 ### Non-functional Requirements 
   - User-friendly UI. 
   - Fast loading times. 
@@ -36,7 +40,8 @@ The purpose of the bookstore project is to create an online platform that provid
 ## Detailed Requirements for the Website 
 - Display product categories 
 - Display detailed information about each product 
-- Display best-selling, trending, popular products 
+- Display best-selling, trending, popular products
+  
 ### For Users: 
 - Allow viewing product information 
 - Search for product information 
@@ -46,9 +51,105 @@ The purpose of the bookstore project is to create an online platform that provid
 - Can view or update profile of users 
 - Can store the favourites products 
 - Using cart to store the book wanted to checkout
+  
 ### For Admin: 
 - Member management: Delete members 
 - Book management: Add, Edit, Delete books 
 - Order management: View orders 
 - Genre management: Add, Edit, Delete genre 
 - View the admin dashboard  
+
+2.2.2. Diagram 
+
+* Usecase Diagram 
+
+
+
+Figure 2.1. General Use Case Diagram 
+
+ 
+
+Description: Users can register, log in, update their information, search for products, make purchases, and view their purchase history. Meanwhile, administrators will have all the functionalities of a regular user, along with additional features for managing the website and accessing sales data. 
+
+ 
+
+Ảnh có chứa văn bản, biểu đồ, vòng tròn, hàng
+
+Mô tả được tạo tự động 
+
+Figure 2.2. Specific Use Case Diagram 
+
+ 
+
+Description: In the chart above, we gain an overview of how the website operates through the user and administrator interaction steps. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+* Sequence Diagram 
+
+Không thể tải hình ảnh
+ 
+
+Figure 2.3. Login Sequence Diagram 
+
+ 
+
+Description: When customers request to log in, they will be redirected to the login page. The system will validate whether the username and password are valid input so that to check in database. If account has in database, it will display a login successful message; otherwise, it will display a login failed message and return to the login interface. 
+
+ 
+
+Ảnh có chứa văn bản, biểu đồ, ảnh chụp màn hình, hàng
+
+Mô tả được tạo tự động 
+
+ 
+
+Figure 2.4. Signup Sequence Diagram 
+
+ 
+
+Description: When users request to register as members, they will be directed to the registration page. The system will validate the entered information. If the information is valid, it will display a registration successful message. If the entered information is invalid, it will display a registration failed message. 
+
+ 
+
+Ảnh có chứa văn bản, biểu đồ, ảnh chụp màn hình, hàng
+
+Mô tả được tạo tự động 
+
+Figure 2.5. Buy Product Sequence Diagram 
+
+ 
+
+Description: Customers add items they want to purchase to their shopping cart and it save in database as well. When user want to to buy products in cart, they require checkout. The system processes the payment and notifies the user of a successful transaction. 
+
+ 
+
+ 
+
+* State Diagram 
+
+Ảnh có chứa biểu đồ, hàng, văn bản, thiết kế
+
+Mô tả được tạo tự động 
+
+Figure 2.6. State Diagram for main page 
+
+ 
+
+Description: when accessing the web, the user is in home page. If user redirect to profile page or order history page, the system check if the user is not login then redirect to login page else can access user page. According to accessing admin page, the user have to login first, if user is admin then this user can use functionality of admin page, else not. 
